@@ -18,3 +18,7 @@ def log(message):
     ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"[{ts}] {message}")
 feature/logging
+
+def puissance(base, exp):
+    # TODO: gérer les exposants négatifs
+    return base ** exp
